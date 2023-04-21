@@ -4,8 +4,10 @@
 
 export const environment = {
   production: false,
-  API_KEY : 'AIzaSyCp2aOEqneTIbVCf4uepOXYqfeoH7ILLnM',
-  CONTEXT_KEY : '308824764a7682b63'
+  API_KEY : 'AIzaSyB7qBcTcN6CgJ17WYRlWAVckAv1mdqsQF0',
+  // CONTEXT_KEY : '308824764a7682b63'
+  CONTEXT_KEY : '14c4371b13bb04d54'
+
 };
 
 /*
@@ -16,3 +18,4 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+

@@ -1,5 +1,7 @@
 export const environment = {
   production: true,
-  API_KEY : 'AIzaSyC6GgI0q_Pz3EnVRD0r4qArOu-WKh34mXw',
-  CONTEXT_KEY : '308824764a7682b63'
+  API_KEY : 'AIzaSyB7qBcTcN6CgJ17WYRlWAVckAv1mdqsQF0',
+  // CONTEXT_KEY : '308824764a7682b63'
+  CONTEXT_KEY : '14c4371b13bb04d54'
+
 };

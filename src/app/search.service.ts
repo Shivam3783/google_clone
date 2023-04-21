@@ -25,7 +25,4 @@ export class SearchService {
     });
   }
 
-  printHello() {
-    return 'HELLO';
-  }
 }

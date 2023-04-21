@@ -1,0 +1,80 @@
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.home-container a {
+  text-decoration: none;
+  color: #727272;
+}
+.home-container header {
+  width: 100%;
+  padding: 20px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+.home-container header a {
+  color: #272727;
+}
+.home-container header > * {
+  margin-right: 18px;
+}
+.home-container header button {
+  outline: none;
+  background-color: #4386fa;
+  border: none;
+  padding: 7px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  margin-right: 40px;
+}
+.home-container header button:hover {
+  cursor: pointer;
+}
+.home-container header mat-icon {
+  color: #727272;
+}
+.home-container main {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-container main img {
+  width: 272px;
+}
+.home-container main .search-box {
+  width: 600px;
+  position: relative;
+  margin-top: 25px;
+}
+.home-container main .g-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  position: relative;
+}
+.home-container main .g-buttons button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #5f6368;
+  background-color: #f4f4f4;
+  font-family: arial, sans-serif;
+}
+.home-container main .g-buttons button:hover {
+  cursor: pointer;
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
